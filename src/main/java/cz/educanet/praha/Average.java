@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Average {
 
     public static double average(Scanner scanner) {
-        return 0;
+        return 1;
     }
 
     public static void main(String[] args) {
