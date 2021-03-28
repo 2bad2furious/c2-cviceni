@@ -2,7 +2,7 @@ package cz.educanet.praha;
 
 import java.util.Scanner;
 
-public class Sums {
+public class SumAllNumbers {
 
     public static int calculate(Scanner scanner) {
         return 0;
