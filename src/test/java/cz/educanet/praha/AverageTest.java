@@ -10,7 +10,7 @@ public class AverageTest {
     static double delta = 0.0001;
 
     @Test
-    public void test() throws IOException {
+    public void test() {
         double res = Average.average(Utils.createScanner(new Object[]{
                 1, 2, 3, 4, 5, 6, 7, 8
         }));
