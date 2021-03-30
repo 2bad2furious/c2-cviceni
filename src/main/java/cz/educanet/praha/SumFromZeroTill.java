@@ -4,6 +4,13 @@ import java.util.Scanner;
 
 public class SumFromZeroTill {
     public static int sumFromZeroTill(int max){
+        int sum = 0;
+        int i = 1;
+        while (i <= max){
+            sum += i;
+            i++;
+        }
+        System.out.println("Sum = " + sum);
         return 0;
     }
 
