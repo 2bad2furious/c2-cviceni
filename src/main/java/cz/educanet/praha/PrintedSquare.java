@@ -5,17 +5,17 @@ import java.util.Scanner;
 public class PrintedSquare {
     public static String printSquare(int side) {
         int i,j;
-
+        String b = "";
         for(i = 1; i <= side; i++){
             for(j = 1; j<= side; j++){
                 if (i == 1 || i == side || j == 1 || j == side)
-                    System.out.print("*");
+                    b = b+ ("*");
                 else
-                    System.out.print(" ");
+                    b = b+ (" ");
             }
-            System.out.println();
+            b = b+"\n";
         }
-        return "";
+        return b;
     }
 
     public static void main(String[] args) {
