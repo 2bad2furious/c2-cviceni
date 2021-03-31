@@ -10,8 +10,7 @@ public class SumFromZeroTill {
             sum += i;
             i++;
         }
-        System.out.println("Sum = " + sum);
-        return 0;
+        return sum;
     }
 
     public static void main(String[] args) {
