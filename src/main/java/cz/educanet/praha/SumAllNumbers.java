@@ -2,10 +2,15 @@ package cz.educanet.praha;
 
 import java.util.Scanner;
 
-public class SumAllNumbers {
+public class number {
 
     public static int calculate(Scanner scanner) {
-        return 0;
+        int num = 0;
+        int x = 0;
+        while(scanner.hasNextInt()){
+            x = x + scanner.nextInt();
+        }        
+        return x;
     }
 
     public static void main(String[] args) {
