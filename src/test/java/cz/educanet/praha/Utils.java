@@ -11,7 +11,7 @@ public class Utils {
         return Arrays.stream(data).map(Object::toString).collect(Collectors.joining("\n"));
     }
 
-    public static Scanner createScanner(Object[] data) {
+    public static Scanner createScanner(Object... data) {
         return new Scanner(new ByteArrayInputStream(asString(data).getBytes()));
     }
 }
