@@ -5,7 +5,14 @@ import java.util.Scanner;
 public class SumAllNumbers {
 
     public static int calculate(Scanner scanner) {
-        return 0;
+        int r = 0;
+
+        while(scanner.hasNext()){
+            int n = scanner.nextInt();
+            r = r + n;
+        }
+
+        return r;
     }
 
     public static void main(String[] args) {
