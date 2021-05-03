@@ -9,7 +9,8 @@ public class CubeTest {
         int res = Cube.sumOfAreasAndVolumes(Utils.createScanner(5));
         Assert.assertEquals(
                 (6 * 5 * 5) + (5 * 5 * 5),
-                res);
+                res
+        );
     }
 
     @Test
@@ -17,6 +18,7 @@ public class CubeTest {
         int res = Cube.sumOfAreasAndVolumes(Utils.createScanner(10, 20, 30));
         Assert.assertEquals(
                 ((6 * 10 * 10) + (10 * 10 * 10)) + ((6 * 20 * 20) + (20 * 20 * 20)) + ((6 * 30 * 30) + (30 * 30 * 30)),
-                res);
+                res
+        );
     }
 }

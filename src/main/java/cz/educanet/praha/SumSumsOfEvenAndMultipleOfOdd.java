@@ -5,7 +5,17 @@ import java.util.Scanner;
 public class SumSumsOfEvenAndMultipleOfOdd {
 
     public static int sumSumsOfEvenAndMultipleOfOdd(Scanner scanner) {
-        return 0;
+        int s = 0;
+        int l = 1;
+        while(scanner.hasNext()){
+            int n = scanner.nextInt();
+            if (n%2 == 0){
+                s = s + n;
+            }else {
+               l = l * n;
+            }
+        }
+        return s + l;
     }
 
     public static void main(String[] args) {
